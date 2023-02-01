@@ -124,7 +124,7 @@ export default function SignupForm({ setIsSubmitted, loading, setIsLoading }) {
 
 
                                 <Flex w="100%" marginTop={["2.5rem", "2.5rem", "0", "0"]} justifyContent={["center", "center", "flex-end", "flex-end"]} display="flex">
-                                    <Tooltip placement="bottom-end" bg={colors.azureWhite} border={`1px solid ${colors.sandrift}`} borderRadius="10px" color="#26282adb" label='Get the 7 step beginners guide to turning your life around'>
+                                    <Tooltip placement="bottom-end" bg={colors.azureWhite} border={`1px solid ${colors.sandrift}`} borderRadius="10px" color="#26282adb" label='Get the 7 Step Bigginers Guide to Turning You Life Around'>
 
                                         <Button isLoading={loading} loadingText='Submitting' type="submit" _hover={{ border: `1px solid ${colors.sandrift}`, color: colors.sandrift, bgColor: colors.Isabelline, transform: " scale(1.1)", transitionDelay: "25ms" }} w="10rem" padding="1.5rem" color={colors.azureWhite} borderRadius="25px" bgColor={colors.sandrift}>Signup</Button>
                                     </Tooltip>
