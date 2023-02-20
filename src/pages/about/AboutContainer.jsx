@@ -17,7 +17,7 @@ export default function AboutContainer() {
         AOS.init();
     }, []);
 
-    // h={["820px", "820px", "555px", "820px"]}
+
     return (
         <Flex flexDir="column" bgColor={colors.Isabelline} w="100%" >
             {isSmallScreen ? <NavbarPhone btnText={btnText} /> : <Navbar btnText={btnText} />}
@@ -28,14 +28,10 @@ export default function AboutContainer() {
                         <Flex
                             paddingY="5%"
                             paddingX="4%"
-                            // bgColor="#f8f8f8"
                             bgColor={colors.Isabelline}
-                            // data-aos="fade-up"
-                            // data-aos-offset="100"
-                            // data-aos-duration="800"
                             align="center"
-                            paddingTop={["10%", "10%", "8%", "5%"]}
-                            paddingBottom={["10%", "10%", "8%", "5%"]}
+                            paddingTop={["15%", "15%", "8%", "5%"]}
+                            paddingBottom={["15%", "15%", "8%", "5%"]}
                             w="100%"
                             justifyContent="center"
                             key={data.title}
@@ -67,7 +63,9 @@ export default function AboutContainer() {
                                 <Flex
                                     gap={[1, 2, 3, 10]}
                                     w="60%"
+                                    paddingX="0.5rem"
                                     // h="135px"
+                                    textAlign="center"
                                     justifyContent="space-between"
                                     flexDir="column"
                                 >
@@ -89,8 +87,8 @@ export default function AboutContainer() {
                         <Flex
 
                             align="center"
-                            paddingTop={["5%", "5%", "8%", "5%"]}
-                            paddingBottom={["5%", "5%", "8%", "5%"]}
+                            paddingTop={["15%", "15%", "8%", "5%"]}
+                            paddingBottom={["15%", "15%", "8%", "5%"]}
                             w="100%"
                             bgColor="#f8f8f8"
                             // w={[null, null, "1200px", "1920px"]}
@@ -113,10 +111,11 @@ export default function AboutContainer() {
                                     flexDir="column"
                                 >
                                     <Flex
-                                        textAlign="end"
+                                        textAlign="center"
+                                        paddingX="0.5rem"
                                         flexDir="column"
                                         alignItems={["center", "center", "end", "end"]}
-                                        w={["null", "83.5%", "83.5%", "83.5%"]}
+                                        w={["null", "90%", "83.5%", "83.5%"]}
                                         gap={[1, 2, 3, 10]}
                                     >
 
@@ -136,10 +135,7 @@ export default function AboutContainer() {
                                 </Flex>
                                 <Image
                                     objectFit="cover"
-                                    // boxShadow={`0 0 8px 8px ${colors.swissCoffee}`}
-                                    // boxShadow={` 0 1px 10px 2px #d3c0b2`}
                                     boxShadow={`0 0 8px 8px #d5d5d585`}
-
                                     borderRadius="50%"
                                     w={["120px", "130px", "250px", "500px"]}
                                     h={["120px", "130px", "250px", "500px"]}

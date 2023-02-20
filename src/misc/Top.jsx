@@ -5,10 +5,8 @@ export default function Top() {
 
 
     return (
-        <Flex align="center" justifyContent="center" h="2.5rem" className="top" w="100%">
+        <Flex textAlign="center" align="center" justifyContent="center" h="2.5rem" className="top" w="100%">
             <Text fontStyle="oblique" fontWeight={500} color={colors.azureWhite} fontSize="12px">Don't miss out on our 7 Step Guide to Turning Your Life Around!</Text>
         </Flex>
     )
 }
-
-// bgColor="rgba(193, 161, 138, 0.61)"
